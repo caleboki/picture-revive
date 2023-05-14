@@ -185,4 +185,8 @@ return [
         // 'Example' => App\Facades\Example::class,
     ])->toArray(),
 
+    'replicate' => [
+        'api_token' => env('REPLICATE_API_TOKEN')
+    ],
+
 ];
